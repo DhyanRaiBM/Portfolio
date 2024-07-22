@@ -40,7 +40,7 @@ const App = () => {
           <div className="btn-container">
             <button
               className="btn btn-color-2"
-              onClick={() => window.open('./assets/resume-example.pdf')}
+              onClick={() => window.open('/assets/resume-example.pdf')}
             >
               Download CV
             </button>
@@ -50,13 +50,13 @@ const App = () => {
           </div>
           <div id="socials-container">
             <img
-              src="../public/assets/linkedin.png"
+              src="/assets/linkedin.png"
               alt="My LinkedIn profile"
               className="icon"
               onClick={() => window.location.href = 'https://www.linkedin.com/in/dhyan-rai-bm/'}
             />
             <img
-              src="../public/assets/github.png"
+              src="/assets/github.png"
               alt="My Github profile"
               className="icon"
               onClick={() => window.location.href = 'https://github.com/DhyanRaiBM'}
@@ -72,7 +72,7 @@ const App = () => {
             <div className="about-containers">
               <div className="details-container">
                 <img
-                  src="../public/assets/experience.png"
+                  src="/assets/experience.png"
                   alt="Experience icon"
                   className="icon"
                 />
@@ -81,7 +81,7 @@ const App = () => {
               </div>
               <div className="details-container">
                 <img
-                  src="../public/assets/education.png"
+                  src="/assets/education.png"
                   alt="Education icon"
                   className="icon"
                 />
@@ -98,14 +98,14 @@ const App = () => {
           </div>
           <div className="section__pic-container">
             <img
-              src="../public/assets/about-pic6.png"
+              src="/assets/about-pic6.png"
               alt="Profile picture"
               className="about-pic"
             />
           </div>
         </div>
         <img
-          src="../public/assets/arrow.png"
+          src="/assets/arrow.png"
           alt="Arrow icon"
           className="icon arrow"
           onClick={() => window.location.href = './#experience'}
@@ -155,7 +155,7 @@ const App = () => {
           </div>
         </div>
         <img
-          src="../public/assets/arrow.png"
+          src="/assets/arrow.png"
           alt="Arrow icon"
           className="icon arrow"
           onClick={() => window.location.href = './#projects'}
@@ -198,7 +198,7 @@ const App = () => {
           </div>
         </div>
         <img
-          src="../public/assets/arrow.png"
+          src="/assets/arrow.png"
           alt="Arrow icon"
           className="icon arrow"
           onClick={() => window.location.href = './#contact'}
