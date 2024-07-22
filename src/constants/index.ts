@@ -13,43 +13,43 @@ export const frontendExperience:Experience[] = [
         level: "Experienced"
     },
     {
-        imgSrc: "/assets/checkmark.png",
+        imgSrc: "./assets/checkmark.png",
         altText: "Experience icon",
         title: "CSS",
         level: "Experienced"
     },
     {
-        imgSrc: "/assets/checkmark.png",
+        imgSrc: "./assets/checkmark.png",
         altText: "Experience icon",
         title: "Tailwind",
         level: "Intermediate"
     },
     {
-        imgSrc: "/assets/checkmark.png",
+        imgSrc: "./assets/checkmark.png",
         altText: "Experience icon",
         title: "Javascript",
         level: "Experienced"
     },
     {
-        imgSrc: "/assets/checkmark.png",
+        imgSrc: "./assets/checkmark.png",
         altText: "Experience icon",
         title: "TypeScript",
         level: "Basic"
     },
     {
-        imgSrc: "/assets/checkmark.png",
+        imgSrc: "./assets/checkmark.png",
         altText: "Experience icon",
         title: "ReactJS",
         level: "Intermediate"
     },
     {
-        imgSrc: "/assets/checkmark.png",
+        imgSrc: "./assets/checkmark.png",
         altText: "Experience icon",
         title: "Material UI",
         level: "Intermediate"
     },
     {
-        imgSrc: "/assets/checkmark.png",
+        imgSrc: "./assets/checkmark.png",
         altText: "Experience icon",
         title: "ShadCN UI",
         level: "Intermediate"
@@ -58,49 +58,49 @@ export const frontendExperience:Experience[] = [
 
 export const backendExperience:Experience[] = [
     {
-      imgSrc: "/assets/checkmark.png",
+      imgSrc: "./assets/checkmark.png",
       altText: "Experience icon",
       title: "PostgreSQL",
       level: "Basic"
     },
     {
-      imgSrc: "/assets/checkmark.png",
+      imgSrc: "./assets/checkmark.png",
       altText: "Experience icon",
       title: "Node JS",
       level: "Intermediate"
     },
     {
-      imgSrc: "/assets/checkmark.png",
+      imgSrc: "./assets/checkmark.png",
       altText: "Experience icon",
       title: "Express JS",
       level: "Intermediate"
     },
     {
-      imgSrc: "/assets/checkmark.png",
+      imgSrc: "./assets/checkmark.png",
       altText: "Experience icon",
       title: "MongoDB",
       level: "Intermediate"
     },
     {
-      imgSrc: "/assets/checkmark.png",
+      imgSrc: "./assets/checkmark.png",
       altText: "Experience icon",
       title: "NextJS",
       level: "Intermediate"
     },
     {
-      imgSrc: "/assets/checkmark.png",
+      imgSrc: "./assets/checkmark.png",
       altText: "Experience icon",
       title: "Postman",
       level: "Intermediate"
     },
     {
-      imgSrc: "/assets/checkmark.png",
+      imgSrc: "./assets/checkmark.png",
       altText: "Experience icon",
       title: "Stripe",
       level: "Intermediate"
     },
     {
-      imgSrc: "/assets/checkmark.png",
+      imgSrc: "./assets/checkmark.png",
       altText: "Experience icon",
       title: "Git",
       level: "Intermediate"
