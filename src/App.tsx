@@ -31,7 +31,7 @@ const App = () => {
       </nav>
       <section id="profile" >
         <div className="section__pic-container" id="proImg" >
-          <img src="../public/assets/p-pic.svg" alt="John Doe profile picture" style={{borderRadius:"100%",borderTop:"1px solid black"}} />
+          <img src="/assets/p-pic.svg" alt="John Doe profile picture" style={{borderRadius:"100%",borderTop:"1px solid black"}} />
         </div>
         <div className="section__text">
           <p className="section__text__p1">Hello, I'm</p>
