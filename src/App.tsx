@@ -15,20 +15,7 @@ const App = () => {
           </ul>
         </div>
       </nav>
-      <nav id="hamburger-nav">
-        <div className="logo">John Doe</div>
-        <div className="hamburger-menu">
-          
-          {/* {menuOpen && (
-            <div className="menu-links">
-              <li><a href="#about" onClick={toggleMenu}>About</a></li>
-              <li><a href="#experience" onClick={toggleMenu}>Experience</a></li>
-              <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
-              <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
-            </div>
-          )} */}
-        </div>
-      </nav>
+      
       <section id="profile" >
         <div className="section__pic-container" id="proImg" >
           <img src="/assets/p-pic.svg" alt="John Doe profile picture" style={{borderRadius:"100%",borderTop:"1px solid black"}} />
@@ -40,7 +27,7 @@ const App = () => {
           <div className="btn-container">
             <button
               className="btn btn-color-2"
-              onClick={() => window.open('/assets/resume-example.pdf')}
+              onClick={() => window.open('/assets/resume.pdf')}
             >
               Download CV
             </button>
