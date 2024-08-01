@@ -133,7 +133,7 @@ export const projects = [
     imgSrc: "/assets/project-2.png",
     imgAlt: "Housing Portal",
     projectTitle: "Housing Portal",
-    sourceCodeLink: "https://react-js-state.vercel.app/",
+    sourceCodeLink: "https://github.com/DhyanRaiBM/ReactJS-State.git",
     liveDemoLink: "https://react-js-state.vercel.app/",
   },
   {
