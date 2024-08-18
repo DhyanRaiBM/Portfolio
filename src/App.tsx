@@ -29,14 +29,10 @@ const App = () => {
       <section id="profile">
         <div className="section__pic-container" id="proImg">
           <img
+            id="profileImage"
             src="/assets/p-pic-real1.jpeg"
             alt="Dhyan Rai profile picture Here"
-            style={{
-              maxHeight: '320px',
-              maxWidth: '320px',
-              borderRadius: '100%',
-              objectFit: 'cover',
-            }}
+            style={{}}
           />
         </div>
         <div className="section__text">
@@ -84,7 +80,7 @@ const App = () => {
         <p className="section__text__p1">Get To Know More</p>
         <h1 className="title">About Me</h1>
         <div className="section-container">
-          <div className="about-details-container">
+          <div id="aboutMobile" className="about-details-container">
             <div className="about-containers">
               <div className="details-container">
                 <img
@@ -122,7 +118,7 @@ const App = () => {
               </p>
             </div>
           </div>
-          <div className="section__pic-container">
+          <div id="sec-pic" className="section__pic-container">
             <img
               src="/assets/about-pic6.png"
               alt="Profile picture"
@@ -144,7 +140,7 @@ const App = () => {
           <div className="about-containers">
             <div className="details-container">
               <h2 className="experience-sub-title">Frontend Development</h2>
-              <div className="article-container">
+              <div id="exp" className="article-container">
                 {frontendExperience.map((exp, idx) => (
                   <article key={idx}>
                     <img
@@ -162,7 +158,7 @@ const App = () => {
             </div>
             <div className="details-container">
               <h2 className="experience-sub-title">Backend and Tools </h2>
-              <div className="article-container">
+              <div id="exp" className="article-container">
                 {backendExperience.map((exp, idx) => (
                   <article key={idx}>
                     <img
