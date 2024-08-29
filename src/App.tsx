@@ -30,7 +30,7 @@ const App = () => {
         <div className="section__pic-container" id="proImg">
           <img
             id="profileImage"
-            src="/assets/p-pic-real1.jpeg"
+            src="/assets/real-pic.jpg"
             alt="Dhyan Rai profile picture Here"
             style={{}}
           />
