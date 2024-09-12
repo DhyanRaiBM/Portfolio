@@ -30,7 +30,7 @@ const App = () => {
         <div className="section__pic-container" id="proImg">
           <img
             id="profileImage"
-            src="/assets/real-pic.jpg"
+            src="https://res.cloudinary.com/deh96xgkj/image/upload/v1726165581/gqt1cigjzlo9e4gjwqab.jpg"
             alt="Dhyan Rai profile picture Here"
             style={{}}
           />
@@ -120,7 +120,7 @@ const App = () => {
           </div>
           <div id="sec-pic" className="section__pic-container">
             <img
-              src="/assets/about-pic6.png"
+              src="https://res.cloudinary.com/deh96xgkj/image/upload/v1726165484/uti3l9f3ylgqacdo4egn.png"
               alt="Profile picture"
               className="about-pic"
             />
