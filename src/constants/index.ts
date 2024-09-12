@@ -158,7 +158,7 @@ export const miniProjects = [
     imgSrc: '/assets/mini-project-1.png',
     imgAlt: 'Simple Todo',
     projectTitle: 'Simple Todo',
-    sourceCodeLink: 'https://github.com/DhyanRaiBM/EJS---UpquariumFinance.git/',
+    sourceCodeLink: 'https://simpletodo-production.up.railway.app/',
     liveDemoLink: 'https://todolist-zyy1.onrender.com/',
   },
   {
