@@ -1,8 +1,8 @@
 interface Experience {
-  imgSrc: string
-  altText: string
-  title: string
-  level: string
+  imgSrc: string;
+  altText: string;
+  title: string;
+  level: string;
 }
 
 export const frontendExperience: Experience[] = [
@@ -54,7 +54,7 @@ export const frontendExperience: Experience[] = [
     title: 'ShadCN UI',
     level: 'Intermediate',
   },
-]
+];
 
 export const backendExperience: Experience[] = [
   {
@@ -96,16 +96,16 @@ export const backendExperience: Experience[] = [
   {
     imgSrc: './assets/checkmark.png',
     altText: 'Experience icon',
-    title: 'Stripe',
+    title: 'FastAPI',
     level: 'Intermediate',
   },
   {
     imgSrc: './assets/checkmark.png',
     altText: 'Experience icon',
-    title: 'Git',
+    title: 'Git VCS',
     level: 'Intermediate',
   },
-]
+];
 
 export const projects = [
   {
@@ -151,7 +151,7 @@ export const projects = [
     sourceCodeLink: 'https://github.com/DhyanRaiBM/EJS---UpquariumFinance.git',
     liveDemoLink: 'https://ejs-upquariumfinance-production.up.railway.app/',
   },
-]
+];
 
 export const miniProjects = [
   {
@@ -184,4 +184,4 @@ export const miniProjects = [
   },
 
   // Add more project objects here
-]
+];
