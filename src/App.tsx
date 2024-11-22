@@ -30,7 +30,7 @@ const App = () => {
         <div className='section__pic-container' id='proImg'>
           <img
             id='profileImage'
-            src='https://res.cloudinary.com/deh96xgkj/image/upload/v1726165581/gqt1cigjzlo9e4gjwqab.jpg'
+            src='/assets/p1.jpg'
             alt='Dhyan Rai profile picture Here'
             style={{}}
           />
@@ -80,8 +80,20 @@ const App = () => {
         <p className='section__text__p1'>Get To Know More</p>
         <h1 className='title'>About Me</h1>
         <div className='section-container'>
-          <div id='aboutMobile' className='about-details-container'>
-            <div className='about-containers'>
+          <div
+            id='aboutMobile'
+            className='about-details-container'
+            style={{
+              justifyContent: 'start',
+            }}
+          >
+            <div
+              className='about-containers'
+              style={{
+                margin: '32px 0',
+                ...(window.innerWidth < 640 && { alignItems: 'center' }),
+              }}
+            >
               <div className='details-container'>
                 <img
                   src='/assets/experience.png'
@@ -118,12 +130,37 @@ const App = () => {
               </p>
             </div>
           </div>
-          <div id='sec-pic' className='section__pic-container'>
-            <img
-              src='https://res.cloudinary.com/deh96xgkj/image/upload/v1726165484/uti3l9f3ylgqacdo4egn.png'
-              alt='Profile picture'
-              className='about-pic'
-            />
+          <div
+            id='aboutMobile'
+            className='about-details-container'
+            style={{
+              justifyContent: 'start',
+              margin: '32 0 32',
+              minWidth: '40%',
+            }}
+          >
+            <div className='about-containers'>
+              <div className='details-container' style={{ marginTop: '-25px' }}>
+                <img
+                  src='/assets/postship.svg'
+                  alt='Experience icon'
+                  className='icon'
+                />
+                <h3>Presently with </h3>
+                <p>
+                  <b>Postship</b>
+                  <br />
+                  <b>as a Software Developer</b>
+                </p>
+              </div>
+            </div>
+            <div className='text-container'>
+              <p>
+                I'm currently working at Postship as a Software Developer. I
+                specialize in building user-friendly interfaces and designing
+                robust backend systems.
+              </p>
+            </div>
           </div>
         </div>
         <img
