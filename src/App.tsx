@@ -30,7 +30,7 @@ const App = () => {
         <div className='section__pic-container' id='proImg'>
           <img
             id='profileImage'
-            src='/assets/p1.jpg'
+            src='/assets/p-shadow.jpg'
             alt='Dhyan Rai profile picture Here'
             style={{}}
           />
@@ -140,7 +140,7 @@ const App = () => {
             }}
           >
             <div className='about-containers'>
-              <div className='details-container' style={{ marginTop: '-25px' }}>
+              <div className='details-container'>
                 <img
                   src='/assets/postship.svg'
                   alt='Experience icon'
