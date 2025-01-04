@@ -66,8 +66,8 @@ export const backendExperience: Experience[] = [
   {
     imgSrc: './assets/checkmark.png',
     altText: 'Experience icon',
-    title: 'Node JS',
-    level: 'Intermediate',
+    title: 'Golang',
+    level: 'Basic',
   },
   {
     imgSrc: './assets/checkmark.png',
