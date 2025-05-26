@@ -27,15 +27,15 @@ const App = () => {
       </nav>
 
       <section id='profile'>
-        <div className='section__pic-container' id='proImg'>
+        {/* <div className='section__pic-container' id='proImg'>
           <img
             id='profileImage'
             src='/assets/p-shadow.jpg'
             alt='Dhyan Rai profile picture Here'
             style={{}}
           />
-        </div>
-        <div className='section__text'>
+        </div> */}
+        <div className='section__text' style={{ textAlign: 'center', margin: '0 auto' }}>
           <p className='section__text__p1'>Hello, I'm</p>
           <h1 className='title'>Dhyan Rai </h1>
           <p className='section__text__p2'>FullStack Developer</p>
